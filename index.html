@@ -1,0 +1,89 @@
+<html>
+<head>
+  <title>Calcolo codice fiscale + QR</title>
+</head>
+<body bgcolor="#00ffff" text="black">
+  <center>
+    <marquee><font size="5" color="black">Calcolo codice fiscale + QR</font></marquee>
+  </center>
+  
+  <table border="1" bordercolor="red" align="center">
+    
+    <tr>
+      <td>
+        <center>
+          <label>Inserisci cognome:</label>
+          <input type="text" style="font-family: verdana; font-weight: bold; font-size: 20px; background-color: #6c757d; color: white; width: 200px;" id="cognome" maxlength="20">
+        </center>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <center>
+          <label>Inserisci nome:</label>
+          <input type="text" style="font-family: verdana; font-weight: bold; font-size: 20px; background-color: #6c757d; color: white; width: 200px;" id="nome" maxlength="20">
+        </center>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <center>
+          <label>Sesso:</label>
+          <select name="s" id="S">
+            <option value="M">M</option>
+            <option value="F">F</option>
+          </select>
+        </center>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <center>
+          <label>Inserisci luogo di nascita:</label>
+          <input type="text" style="font-family: verdana; font-weight: bold; font-size: 20px; background-color: #6c757d; color: white; width: 200px;" id="LUOGODINASCITA" maxlength="20">
+        </center>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <center>
+          <label>Inserisci provincia:</label>
+          <input type="text" style="font-family: verdana; font-weight: bold; font-size: 20px; background-color: #6c757d; color: white; width: 200px;" id="PROVINCIA" maxlength="20">
+        </center>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <center>
+          <label>Inserisci data di nascita:</label>
+          <input type="text" style="font-family: verdana; font-weight: bold; font-size: 20px; background-color: #6c757d; color: white; width: 200px;" id="DATADINASCITA" maxlength="20">
+        </center>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <center>
+          <button onclick="calcola()">Calcola</button>
+        </center>
+      </td>
+    </tr> 
+  </table>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/codice.fiscale.var.js"></script>
+  <script src="js/jquery.qrcode.js"></script>
+  <script src="js/qrcode.js"></script>
+
+  <script>
+      
+  </script>
+</body>
+</html>
+
